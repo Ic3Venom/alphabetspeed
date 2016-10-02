@@ -34,7 +34,7 @@ void error(char input[27], char alphabet[27], int inputLength)
 
     printf("Incorrect, got '");
 
-    for (; increment < inputLenght; increment++)
+    for (; increment < inputLength; increment++)
     {
         if (input[increment] != alphabet[increment])
         {
