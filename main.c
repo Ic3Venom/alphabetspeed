@@ -1,9 +1,12 @@
+/*
+** File: alphabetspeed.c
+** Purpose: To see how fast you can finish typing the entire alphabet perfectly
+** Created by Julian Meyn 10/2/2016
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-// Purpose: To see how fast you can finish typing the entire alphabet perfectly
-// Created by Julian Meyn 10/2/2016
 
 void error(char input[27], char alphabet[27], int inputLength);
 
@@ -28,6 +31,7 @@ void main()
         printf("\nTime taken: %d seconds", (time(NULL) - beginningTime));
     }
 }
+
 void error(char input[27], char alphabet[27], int inputLength)
 {
     int increment = 0;
