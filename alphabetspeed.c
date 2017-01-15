@@ -1,7 +1,7 @@
 /*
 ** File: alphabetspeed.c
 ** Purpose: To see how fast you can finish typing the entire alphabet perfectly
-** Created by Julian Meyn 10/2/2016
+** Created by Julian Meyn 10.2.2016
 */
 
 #include <stdio.h>
